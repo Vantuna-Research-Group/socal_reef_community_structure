@@ -161,12 +161,20 @@ california <- states[states$name == "California", ]
 #Higher rez California
 CA_Map <- sf::st_read("~/Dropbox/VRG Files/R Code/Mapping/CA_Map_Nov2023.shp")
 
+library(ggrepel)
+
 #plot
 site_map_basic <- ggplot() + 
  # geom_tile(data = bathy_VRG_xyz.200m, aes(x = V1, y = V2), fill = "lightblue", color = "lightblue") +
   geom_sf(data = usa) +
   geom_sf(data = mexico) +
-  geom_point(data = lat_lon_site_fix.r, aes(x = avg_lon, y = avg_lat, fill = `Reef type`, shape = `Reef type`), size = 2, color = "black") +
+  geom_jitter(data = lat_lon_site_fix.r,
+             aes(x = avg_lon, y = avg_lat, fill = `Reef type`, shape = `Reef type`),
+             size = 1.4,
+             color = "black",
+          # color = "white",
+         alpha = 0.8,
+          width = 0.015, height = 0.015) +
   scale_fill_manual(values = c("darkturquoise","brown1"))+
   scale_shape_manual(values = c(21,24)) +
   coord_sf(xlim = c(-120.5,-116.75), ylim = c(32.6, 34.1), expand = F) +
