@@ -1,0 +1,23 @@
+Site,Reef_type,Years_sampled,Latitude,Longitude,label
+Santa Monica AR,Artificial_reef,8,34.0092793333333,-118.530824,1
+Star of Scotland,Artificial_reef,3,33.996934,-118.520377,2
+Santa Monica Jetty,Artificial_reef,2,34.0078155,-118.504335,3
+Marina del Rey AR,Artificial_reef,8,33.9679065454546,-118.486887181818,4
+Marina del Rey Breakwater,Artificial_reef,1,33.96078,-118.463825,5
+Deep Hole West,Natural_reef,1,34.0466,-118.96731,A
+Deep Hole East,Natural_reef,1,34.04429,-118.95279,B
+Leo Carrillo,Natural_reef,1,34.042575,-118.93368,C
+Nicholas Canyon West,Natural_reef,5,34.0405233333333,-118.92273,D
+Nicholas Canyon East,Natural_reef,1,34.03775,-118.911715,E
+El Sol,Natural_reef,1,34.037365,-118.9073805,F
+El Pescador,Natural_reef,1,34.03587,-118.89483,G
+La Piedra,Natural_reef,1,34.03423,-118.886387,H
+El Matador,Natural_reef,1,34.0354,-118.879604,I
+Lechuza,Natural_reef,5,34.032625,-118.8628395,J
+Point Dume,Natural_reef,5,33.9985533333333,-118.8071013,K
+Little Dume West,Natural_reef,5,34.00488,-118.789897666667,L
+Little Dume East,Natural_reef,1,34.0087566666667,-118.789146666667,M
+Escondido West,Natural_reef,5,34.0212175,-118.7734165,N
+Escondido East,Natural_reef,1,34.0218795,-118.768635,O
+Malibu Bluffs,Natural_reef,1,34.028492,-118.7015785,P
+Big Rock,Natural_reef,1,34.036365,-118.6082635,Q
